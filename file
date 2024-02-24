@@ -1,0 +1,44 @@
+class Employee:
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+
+class Company:
+    def __init__(self, name):
+        self.name = name
+        self.employees = []
+
+    def add_employee(self, employee):
+        self.employees.append(employee)
+        print(f"Сотрудник {employee.name} добавлен в компанию {self.name}.")
+
+    def remove_employee(self, id):
+        for employee in self.employees:
+            if employee.id == id:
+                self.employees.remove(employee)
+                print(f"Сотрудник {employee.name} удален из компании {self.name}.")
+                return
+        print(f"Сотрудник с ID {id} не найден в компании {self.name}.")
+
+    def list_employees(self):
+        print(f"Список сотрудников компании {self.name}:")
+        for employee in self.employees:
+            print(f"Имя: {employee.name}, ID: {employee.id}")
+
+# Создание компании
+company = Company("Наша Компания")
+
+# Добавление сотрудников
+employee1 = Employee("Иван", 1)
+employee2 = Employee("Мария", 2)
+company.add_employee(employee1)
+company.add_employee(employee2)
+
+# Просмотр списка сотрудников
+company.list_employees()
+
+# Удаление сотрудника
+company.remove_employee(1)
+
+# Просмотр обновленного списка сотрудников
+company.list_employees()
