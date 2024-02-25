@@ -42,3 +42,4 @@ company.remove_employee(1)
 
 # Просмотр обновленного списка сотрудников
 company.list_employees()
+
