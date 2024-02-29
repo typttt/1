@@ -31,7 +31,7 @@ company = Company("Наша Компания")
 
 # Добавление сотрудников
 employee1 = Employee("Иван", 1)
-employee2 = Employee("Мария", 2)
+employee2 = Employee("Настя", 2)
 company.add_employee(employee1)
 company.add_employee(employee2)
 
