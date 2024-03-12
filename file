@@ -29,10 +29,10 @@ class Company:
 company = Company("Компания")
 
 # Добавление сотрудников
-employee1 = Employee("Иван", 1)
-employee2 = Employee("Андрей", 2)
-company.add_employee(employee1)
-company.add_employee(employee2)
+#employee1 = Employee("Иван", 1)
+#employee2 = Employee("Андрей", 2)
+#company.add_employee(employee1)
+#company.add_employee(employee2)
 
 # Просмотр списка сотрудников
 company.list_employees()
