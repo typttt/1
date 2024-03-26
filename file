@@ -21,7 +21,7 @@ class Company:
         print(f"Сотрудник с ID {id} не найден в компании {self.name}.")
 
     def list_employees(self):
-        print(f"Список сотрудников компании {self.name}:")
+        print(f"Список сотрудников компании. {self.name}:")
         for employee in self.employees:
             print(f"Имя: {employee.name}, ID: {employee.id}")
 
