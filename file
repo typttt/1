@@ -40,7 +40,7 @@ company.list_employees()
 # Удаление сотрудника
 company.remove_employee(1)
 
-# Просмотр обновленного списка всех сотрудников
+# Просмотр обновленного списка всех сотрудников/
 company.list_employees()
 
 
