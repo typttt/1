@@ -34,7 +34,7 @@ company = Company("Компания")
 #company.add_employee(employee1)
 #company.add_employee(employee2)
 
-# Просмотр списка сотрудников
+# Просмотр списка сотрудников.
 company.list_employees()
 
 # Удаление сотрудника
