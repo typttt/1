@@ -28,7 +28,7 @@ class Company:
 # Создание своей компании
 company = Company("Компания")
 
-# Добавление сотрудников
+# Добавление сотрудников,
 #employee1 = Employee("Иван", 1)
 #employee2 = Employee("Игор", 2)
 #company.add_employee(employee1)
