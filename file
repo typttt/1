@@ -18,7 +18,7 @@ class Company:
                 self.employees.remove(employee)
                 print(f"Сотрудник {employee.name} удален из компании {self.name}")
                 return
-        print(f"Сотрудник с ID {id} не найден в компании/ {self.name}.")
+        print(f"Сотрудник с ID {id} не найден в компании/ {self.name}")
 
     def list_employees(self):
         print(f"Список сотрудников компании {self.name}:")
