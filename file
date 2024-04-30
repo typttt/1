@@ -12,7 +12,6 @@ class Company:
         self.employees.append(employee)
         print(f"Сотрудник {employee.name} добавлен в компанию {self.name}")
 
-
     def remove_employee(self, id):
         for employee in self.employees:
             if employee.id == id:
