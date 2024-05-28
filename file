@@ -9,6 +9,7 @@ class Company:
         self.name = name
         self.employees = []
 
+
     def add_employee(self, employee):
         self.employees.append(employee)
         print(f"Сотрудник {employee.name} добавлен в компанию {self.name}")
